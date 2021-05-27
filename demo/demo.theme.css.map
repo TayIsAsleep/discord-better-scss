@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAEA,AAAA,KAAK,CAAA;EACD,oBAAoB,CAAA,OAAC;CACxB",
-    "sources": [
-        "demo.theme.scss"
-    ],
-    "names": [],
-    "file": "demo.theme.css"
-}
