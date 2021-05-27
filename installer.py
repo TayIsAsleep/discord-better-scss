@@ -15,4 +15,4 @@ for x in (
 ):copy_file(my_path + f"\\demo\\{x}", themes_folder_location + f"\\{x}")
 
 with open(themes_folder_location + "\\run_DBS.bat","w") as f:
-    f.write(f"@echo off && python {my_path}\\main.py")
+    f.write(f'@echo off && "python {my_path}\\main.py" && pause')
