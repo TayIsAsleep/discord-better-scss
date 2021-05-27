@@ -12,6 +12,10 @@ def line_prepender(filename, line):
 # Gets all of the .header files
 header_files = [x for x in os.listdir() if x.endswith(".header")]
 
+if len(header_files) == 0:
+    input("No .header files found!\nPress Enter to exit.")
+    exit()
+
 # Prepare all the information we will need
 work = []
 for x in header_files:
